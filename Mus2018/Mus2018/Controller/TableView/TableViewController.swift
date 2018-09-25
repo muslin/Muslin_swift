@@ -28,24 +28,16 @@ class TableViewController: BaseViewController {
         Alamofire.request(ApiName.bookDetail, parameters: nil, encoding: JSONEncoding.default).responseJSON { (response: DataResponse<Any>) in
             switch response.result {
             case .success(_):
-                let value:[String:Any] = response.value! as! [String : Any]
-                self.model = Mapper<BookDetailResponse>().map(JSON: value)
-                self.setupTableView()
+                if let value = response.value! as? [String : Any] {
+                    self.model = Mapper<BookDetailResponse>().map(JSON: value)
+                    self.setupTableView()
+                }
                 break
             case .failure(let errorData):
+                print(errorData)
                 break
             }
         }
-//
-//        Alamofire.request("https://jsonplaceholder.typicode.com/posts").responseJSON { response in
-//
-//            if let json = response.result.value {
-//
-//            }
-//
-//            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-//            }
-//        }
     }
     
 
