@@ -19,6 +19,7 @@ class ArrayViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNav(name: "Array")
         
         //setTableView()
         //arrayApi.getArray()

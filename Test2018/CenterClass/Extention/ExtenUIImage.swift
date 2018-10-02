@@ -1,5 +1,5 @@
 //
-//  UIImage+Custom.swift
+//  ExtenUIImage.swift
 //  Test2018
 //
 //  Created by Muslin on 27/9/2561 BE.
@@ -35,21 +35,35 @@ extension UIImage {
         return newImage
     }
     
-    func imageByColor(_ color: UIColor?) -> UIImage {
+    class func imageByColor(color: UIColor) -> UIImage {
         let rect = CGRect(x: 0.0, y: 0.0, width: 1.0, height: 1.0)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, 0)
         let context = UIGraphicsGetCurrentContext()
         
-        if let color = color {
-            color.setFill()
-        } else {
-            UIColor.white.setFill()
-        }
-        
+        color.setFill()        
         context!.fill(rect)
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         
         return image!
     }
+    /*
+    func imageWithColor(color1: UIColor) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
+        color1.setFill()
+        
+        let context = UIGraphicsGetCurrentContext() as CGContextRef
+        CGContextTranslateCTM(context, 0, self.size.height)
+        CGContextScaleCTM(context, 1.0, -1.0);
+        CGContextSetBlendMode(context, CGBlendMode.Normal)
+        
+        let rect = CGRect(x:0, y:0, width:self.size.width, height:self.size.height) as CGRect
+        CGContextClipToMask(context, rect, self.CGImage)
+        CGContextFillRect(context, rect)
+        
+        let newImage = UIGraphicsGetImageFromCurrentImageContext() as! UIImage
+        UIGraphicsEndImageContext()
+        
+        return newImage
+    }*/
 }

@@ -19,7 +19,7 @@ class MainViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //title = "Nav"
-        setNav(name: "Main")
+        setNav(name: "นานานานานา")
         setTableView()
         
         //modelTest?.test[0].id
@@ -63,9 +63,11 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             print()
             //let newViewController = UIStoryboard(name: "Test", bundle: nil).instantiateViewController(withIdentifier: "TestViewControllerID") as! TestViewController
             //self.navigationController?.pushViewController(newViewController, animated: true)
-        case 1:
+        case 1:            
             let newViewController = UIStoryboard(name: "Array", bundle: nil).instantiateViewController(withIdentifier: "ArrayViewControllerID") as! ArrayViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
+            let navController = UINavigationController(rootViewController: newViewController)
+            self.present(navController, animated: true, completion: nil)
+            //self.navigationController?.pushViewController(newViewController, animated: true)
             
         default:
             print()

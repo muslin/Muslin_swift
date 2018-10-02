@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9404AB021636538006D5D82 /* Kanit-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404A9E21636537006D5D82 /* Kanit-Italic.otf */; };
+		D9404AB121636538006D5D82 /* Kanit-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404A9F21636537006D5D82 /* Kanit-ExtraBold.otf */; };
+		D9404AB221636538006D5D82 /* Kanit-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA021636537006D5D82 /* Kanit-Light.otf */; };
+		D9404AB321636538006D5D82 /* Kanit-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA121636537006D5D82 /* Kanit-ExtraLightItalic.otf */; };
+		D9404AB421636538006D5D82 /* Kanit-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA221636537006D5D82 /* Kanit-Bold.otf */; };
+		D9404AB521636538006D5D82 /* Kanit-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA321636537006D5D82 /* Kanit-Black.otf */; };
+		D9404AB621636538006D5D82 /* Kanit-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA421636537006D5D82 /* Kanit-BoldItalic.otf */; };
+		D9404AB721636538006D5D82 /* Kanit-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA521636537006D5D82 /* Kanit-ExtraLight.otf */; };
+		D9404AB821636538006D5D82 /* Kanit-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA621636538006D5D82 /* Kanit-LightItalic.otf */; };
+		D9404AB921636538006D5D82 /* Kanit-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA721636538006D5D82 /* Kanit-ThinItalic.otf */; };
+		D9404ABA21636538006D5D82 /* Kanit-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA821636538006D5D82 /* Kanit-Medium.otf */; };
+		D9404ABB21636538006D5D82 /* Kanit-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AA921636538006D5D82 /* Kanit-ExtraBoldItalic.otf */; };
+		D9404ABC21636538006D5D82 /* Kanit-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AAA21636538006D5D82 /* Kanit-SemiBold.otf */; };
+		D9404ABD21636538006D5D82 /* Kanit-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AAB21636538006D5D82 /* Kanit-Regular.otf */; };
+		D9404ABE21636538006D5D82 /* Kanit-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AAC21636538006D5D82 /* Kanit-MediumItalic.otf */; };
+		D9404ABF21636538006D5D82 /* Kanit-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AAD21636538006D5D82 /* Kanit-Thin.otf */; };
+		D9404AC021636538006D5D82 /* Kanit-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AAE21636538006D5D82 /* Kanit-BlackItalic.otf */; };
+		D9404AC121636538006D5D82 /* Kanit-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9404AAF21636538006D5D82 /* Kanit-SemiBoldItalic.otf */; };
+		D9404AC3216382E9006D5D82 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9404AC2216382E9006D5D82 /* RootViewController.swift */; };
 		D97DECFE215B79940004C006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DECFD215B79940004C006 /* AppDelegate.swift */; };
 		D97DED03215B79940004C006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97DED01215B79940004C006 /* Main.storyboard */; };
 		D97DED06215B79940004C006 /* Test2018.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D97DED04215B79940004C006 /* Test2018.xcdatamodeld */; };
@@ -20,7 +39,7 @@
 		D97DED36215B993D0004C006 /* ShowDateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DED35215B993D0004C006 /* ShowDateRequest.swift */; };
 		D97DED39215B9B520004C006 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DED38215B9B520004C006 /* BaseModel.swift */; };
 		D97DED3B215BA1A00004C006 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = D97DED3A215BA1A00004C006 /* Property List.plist */; };
-		D99633C6215C810A007E1E07 /* UIImage+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99633C5215C810A007E1E07 /* UIImage+Custom.swift */; };
+		D99633C6215C810A007E1E07 /* ExtenUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99633C5215C810A007E1E07 /* ExtenUIImage.swift */; };
 		D99633C8215C881D007E1E07 /* ExtenDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99633C7215C881D007E1E07 /* ExtenDate.swift */; };
 		D99633CC215C8A9A007E1E07 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99633CA215C8A9A007E1E07 /* MainTableViewCell.swift */; };
 		D99633CD215C8A9A007E1E07 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D99633CB215C8A9A007E1E07 /* MainTableViewCell.xib */; };
@@ -42,6 +61,26 @@
 		28DDFF4615245FCFC04E2492 /* Pods-Test2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test2018/Pods-Test2018.release.xcconfig"; sourceTree = "<group>"; };
 		3362423CDA09368021533577 /* Pods-Test2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test2018/Pods-Test2018.debug.xcconfig"; sourceTree = "<group>"; };
 		7436180A15ECDADE45B138CF /* Pods_Test2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9404A9E21636537006D5D82 /* Kanit-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Italic.otf"; sourceTree = "<group>"; };
+		D9404A9F21636537006D5D82 /* Kanit-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBold.otf"; sourceTree = "<group>"; };
+		D9404AA021636537006D5D82 /* Kanit-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Light.otf"; sourceTree = "<group>"; };
+		D9404AA121636537006D5D82 /* Kanit-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		D9404AA221636537006D5D82 /* Kanit-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.otf"; sourceTree = "<group>"; };
+		D9404AA321636537006D5D82 /* Kanit-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Black.otf"; sourceTree = "<group>"; };
+		D9404AA421636537006D5D82 /* Kanit-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-BoldItalic.otf"; sourceTree = "<group>"; };
+		D9404AA521636537006D5D82 /* Kanit-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLight.otf"; sourceTree = "<group>"; };
+		D9404AA621636538006D5D82 /* Kanit-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-LightItalic.otf"; sourceTree = "<group>"; };
+		D9404AA721636538006D5D82 /* Kanit-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ThinItalic.otf"; sourceTree = "<group>"; };
+		D9404AA821636538006D5D82 /* Kanit-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.otf"; sourceTree = "<group>"; };
+		D9404AA921636538006D5D82 /* Kanit-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		D9404AAA21636538006D5D82 /* Kanit-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.otf"; sourceTree = "<group>"; };
+		D9404AAB21636538006D5D82 /* Kanit-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.otf"; sourceTree = "<group>"; };
+		D9404AAC21636538006D5D82 /* Kanit-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-MediumItalic.otf"; sourceTree = "<group>"; };
+		D9404AAD21636538006D5D82 /* Kanit-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Thin.otf"; sourceTree = "<group>"; };
+		D9404AAE21636538006D5D82 /* Kanit-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-BlackItalic.otf"; sourceTree = "<group>"; };
+		D9404AAF21636538006D5D82 /* Kanit-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		D9404AC2216382E9006D5D82 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D9404AC421638805006D5D82 /* Test2018.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test2018.entitlements; sourceTree = "<group>"; };
 		D97DECFA215B79940004C006 /* Test2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97DECFD215B79940004C006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D97DED02215B79940004C006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +96,7 @@
 		D97DED35215B993D0004C006 /* ShowDateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDateRequest.swift; sourceTree = "<group>"; };
 		D97DED38215B9B520004C006 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		D97DED3A215BA1A00004C006 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
-		D99633C5215C810A007E1E07 /* UIImage+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Custom.swift"; sourceTree = "<group>"; };
+		D99633C5215C810A007E1E07 /* ExtenUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtenUIImage.swift; sourceTree = "<group>"; };
 		D99633C7215C881D007E1E07 /* ExtenDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtenDate.swift; sourceTree = "<group>"; };
 		D99633CA215C8A9A007E1E07 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		D99633CB215C8A9A007E1E07 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
@@ -103,6 +142,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9404A9D216364E0006D5D82 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D9404AA321636537006D5D82 /* Kanit-Black.otf */,
+				D9404AAE21636538006D5D82 /* Kanit-BlackItalic.otf */,
+				D9404AA221636537006D5D82 /* Kanit-Bold.otf */,
+				D9404AA421636537006D5D82 /* Kanit-BoldItalic.otf */,
+				D9404A9F21636537006D5D82 /* Kanit-ExtraBold.otf */,
+				D9404AA921636538006D5D82 /* Kanit-ExtraBoldItalic.otf */,
+				D9404AA521636537006D5D82 /* Kanit-ExtraLight.otf */,
+				D9404AA121636537006D5D82 /* Kanit-ExtraLightItalic.otf */,
+				D9404A9E21636537006D5D82 /* Kanit-Italic.otf */,
+				D9404AA021636537006D5D82 /* Kanit-Light.otf */,
+				D9404AA621636538006D5D82 /* Kanit-LightItalic.otf */,
+				D9404AA821636538006D5D82 /* Kanit-Medium.otf */,
+				D9404AAC21636538006D5D82 /* Kanit-MediumItalic.otf */,
+				D9404AAB21636538006D5D82 /* Kanit-Regular.otf */,
+				D9404AAA21636538006D5D82 /* Kanit-SemiBold.otf */,
+				D9404AAF21636538006D5D82 /* Kanit-SemiBoldItalic.otf */,
+				D9404AAD21636538006D5D82 /* Kanit-Thin.otf */,
+				D9404AA721636538006D5D82 /* Kanit-ThinItalic.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		D97DECF1215B79940004C006 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +192,7 @@
 		D97DECFC215B79940004C006 /* Test2018 */ = {
 			isa = PBXGroup;
 			children = (
+				D9404AC421638805006D5D82 /* Test2018.entitlements */,
 				D97DED18215B7BC90004C006 /* View */,
 				D97DED17215B7BB60004C006 /* Model */,
 				D97DED16215B7B5B0004C006 /* Controller */,
@@ -200,6 +265,7 @@
 		D97DED1C215B7E0C0004C006 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D9404A9D216364E0006D5D82 /* Font */,
 				D97DED07215B79960004C006 /* App.xcassets */,
 				D97DED1D215B7E300004C006 /* Icon.xcassets */,
 			);
@@ -241,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				D97DED26215B7FA00004C006 /* BaseViewController.swift */,
+				D9404AC2216382E9006D5D82 /* RootViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -290,7 +357,7 @@
 		D99633C9215C885D007E1E07 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
-				D99633C5215C810A007E1E07 /* UIImage+Custom.swift */,
+				D99633C5215C810A007E1E07 /* ExtenUIImage.swift */,
 				D99633C7215C881D007E1E07 /* ExtenDate.swift */,
 				D99633E4215C98B6007E1E07 /* ExtenUILabel.swift */,
 			);
@@ -391,6 +458,11 @@
 				TargetAttributes = {
 					D97DECF9215B79940004C006 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -419,14 +491,32 @@
 			files = (
 				D99C3004215CCB4F00A6AA91 /* ArrayCollectionViewCell.xib in Resources */,
 				D97DED3B215BA1A00004C006 /* Property List.plist in Resources */,
+				D9404AB421636538006D5D82 /* Kanit-Bold.otf in Resources */,
+				D9404AB721636538006D5D82 /* Kanit-ExtraLight.otf in Resources */,
+				D9404ABF21636538006D5D82 /* Kanit-Thin.otf in Resources */,
+				D9404AC021636538006D5D82 /* Kanit-BlackItalic.otf in Resources */,
 				D97DED0B215B79960004C006 /* LaunchScreen.storyboard in Resources */,
+				D9404AB221636538006D5D82 /* Kanit-Light.otf in Resources */,
+				D9404AB121636538006D5D82 /* Kanit-ExtraBold.otf in Resources */,
+				D9404ABB21636538006D5D82 /* Kanit-ExtraBoldItalic.otf in Resources */,
+				D9404AB621636538006D5D82 /* Kanit-BoldItalic.otf in Resources */,
 				D97DED08215B79960004C006 /* App.xcassets in Resources */,
+				D9404AC121636538006D5D82 /* Kanit-SemiBoldItalic.otf in Resources */,
+				D9404AB521636538006D5D82 /* Kanit-Black.otf in Resources */,
+				D9404AB021636538006D5D82 /* Kanit-Italic.otf in Resources */,
 				D97DED13215B7A0F0004C006 /* Podfile in Resources */,
 				D99633CD215C8A9A007E1E07 /* MainTableViewCell.xib in Resources */,
+				D9404ABE21636538006D5D82 /* Kanit-MediumItalic.otf in Resources */,
+				D9404ABD21636538006D5D82 /* Kanit-Regular.otf in Resources */,
+				D9404AB821636538006D5D82 /* Kanit-LightItalic.otf in Resources */,
 				D97DED03215B79940004C006 /* Main.storyboard in Resources */,
+				D9404ABA21636538006D5D82 /* Kanit-Medium.otf in Resources */,
 				D99633DE215C91FF007E1E07 /* Array.storyboard in Resources */,
+				D9404AB921636538006D5D82 /* Kanit-ThinItalic.otf in Resources */,
 				D97DED1E215B7E300004C006 /* Icon.xcassets in Resources */,
 				D99633E3215C925F007E1E07 /* ArrayTableViewCell.xib in Resources */,
+				D9404AB321636538006D5D82 /* Kanit-ExtraLightItalic.otf in Resources */,
+				D9404ABC21636538006D5D82 /* Kanit-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +574,7 @@
 			files = (
 				D99C3006215CD01A00A6AA91 /* ArrayApi.swift in Sources */,
 				D97DED36215B993D0004C006 /* ShowDateRequest.swift in Sources */,
+				D9404AC3216382E9006D5D82 /* RootViewController.swift in Sources */,
 				D97DED24215B7ED90004C006 /* MainViewController.swift in Sources */,
 				D99633C8215C881D007E1E07 /* ExtenDate.swift in Sources */,
 				D99C3003215CCB4F00A6AA91 /* ArrayCollectionViewCell.swift in Sources */,
@@ -494,7 +585,7 @@
 				D97DED27215B7FA00004C006 /* BaseViewController.swift in Sources */,
 				D97DED06215B79940004C006 /* Test2018.xcdatamodeld in Sources */,
 				D97DECFE215B79940004C006 /* AppDelegate.swift in Sources */,
-				D99633C6215C810A007E1E07 /* UIImage+Custom.swift in Sources */,
+				D99633C6215C810A007E1E07 /* ExtenUIImage.swift in Sources */,
 				D97DED34215B991B0004C006 /* ShowDateResponse.swift in Sources */,
 				D99633D3215C90F1007E1E07 /* TestViewController.swift in Sources */,
 				D99633DB215C917B007E1E07 /* ArrayResponse.swift in Sources */,
@@ -646,7 +737,9 @@
 			baseConfigurationReference = 3362423CDA09368021533577 /* Pods-Test2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Test2018/Test2018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Q57WSU4N;
 				INFOPLIST_FILE = "$(SRCROOT)/Test2018/Support File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -664,7 +757,9 @@
 			baseConfigurationReference = 28DDFF4615245FCFC04E2492 /* Pods-Test2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Test2018/Test2018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Q57WSU4N;
 				INFOPLIST_FILE = "$(SRCROOT)/Test2018/Support File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
